@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Personal Website">
+    <meta name="keywords" content="web design, personal site, professional site">
+    <meta name="author" content="Abednego Chase">
+    <title>Abednego Chase | Welcome</title>
+    <!-- CSS Stylesheet Link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Mapbox API-->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/f938992b95.js" crossorigin="anonymous"></script>
+    <!-- Favicon.io Tags-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest"> -->
+    <link rel="icon" type="image/png" href="favicon_io/favicon.ico">
+    <!-- JS File -->
+    <script src="sketch.js" async></script>
+</head>
+
+<body>
+    <!-- Mapbox API Setup-->
+    <div id="map"></div>
+
+    <!-- Page Header-->
+    <nav>
+        <div class="header">
+            <h1><span id="first">Abednego</span> Chase</h1>
+        </div>
+    </nav>
+
+    <!-- Modal Btn -->
+    <button id="modalBtn" class="navButton">About</button>
+
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h4>About Me</h4>
+                <hr>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Welcome! My name is Abednego Chase and this is my personal website. I am currently a junior at
+                    Bowdoin College studying Computer Science and Education. In the realm of computer programming, many
+                    of my core skills revolve around JavaScript (including HTML5 & CSS3), Python and Java. I consider CS
+                    to be a field that holds a substantial amount of significance in the digital, rapidly evolving world
+                    that we live in today; from the websites we navigate through on a daily basis, to some of its more
+                    intricate facets such as AI and machine learning. Other interests and passions include: health and fitness, photography & videography, and education (specifically educational
+                    admissions). Feel free to use this website to learn more about me, contact me via any of my
+                    socials below, or simply play around with this digital map!
+                </p>
+            </div>
+            <br>
+            <hr>
+            <div class="modal-footer">
+                <h5>Updated 2020</h5>
+            </div>
+        </div>
+    </div>
+
+    <section class="locations">
+        <button id="home">Home</button>
+        <button id="school">School</button>
+        <button id="work">Work</button>
+        <button id="vacation">Vacation</button>
+    </section>
+
+    <section class="media">
+        <a href="mailto:chase.abednego26@gmail.com?Subject=Hey%20Abednego!" target="_newtab"><i
+                class="far fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/abednego-chase/" target="_newtab"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/AbednegoASC4" target="_newtab"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/aye_chase" target="_newtab"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_newtab"><i class="fas fa-file"></i></a>
+    </section>
+
+</body>
+</html>
